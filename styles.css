@@ -1,0 +1,115 @@
+:root {
+  --titles-font-family: "Work Sans",sans-serif;
+  --h1-color: #ffffff;
+  --h2-color: #1b2486;
+
+}
+
+* {
+  margin: 0;
+}
+
+h1 {
+  font-family: var(--titles-font-family);
+  font-size: 4rem;
+  color: var(--h1-color);
+  text-transform: uppercase;
+  padding: 5% 20%;
+  z-index: 2;
+}
+
+h2 {
+  font-family: var(--titles-font-family);
+  font-size: 3rem;
+  color: var(--h2-color);
+  margin-bottom: 40px;
+}
+
+h3 {
+  margin-top: 1%;
+  color: white;
+  font-size: 2rem;
+}
+
+/*** HEADER STYLES ***/
+
+header {
+  min-height: 200px;
+  align-items: center;
+  background-image: url("circuitos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+/*** MAIN STYLES ***/
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  width: 80%;
+  margin: 2% auto;
+}
+
+.gallery {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+
+#ada-lovelace,
+#juventude {
+  text-align: left;
+}
+
+#ada-lovelace img,
+#juventude img {
+  margin-left: 10%;
+}
+
+#infancia,
+#vida-adulta {
+  text-align: right;
+}
+
+#infancia img,
+#vida-adulta img {
+  margin-right: 10%;
+  
+}
+
+#outras {
+  background-color: #3e4ac8;
+  width: 100%;
+  margin-bottom: 0;
+  background-size: cover;
+  text-align: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.div-text {
+  width: 80%;
+  height: 400px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+
+}
+
+a:hover {
+  color: var(--h2-color);
+}

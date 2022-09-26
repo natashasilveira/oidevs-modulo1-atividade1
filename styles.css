@@ -1,7 +1,7 @@
 :root {
   --titles-font-family: "Work Sans",sans-serif;
   --h1-color: #ffffff;
-  --h2-color: #1b2486;
+  --h2-color: #3b46c8;
 
 }
 
@@ -84,7 +84,7 @@ section {
 }
 
 #outras {
-  background-color: #3e4ac8;
+  background-color: var(--h2-color);
   width: 100%;
   margin-bottom: 0;
   background-size: cover;

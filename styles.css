@@ -52,6 +52,8 @@ main {
 
 section {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 80%;
   margin: 2% auto;
 }
@@ -69,7 +71,7 @@ section {
 
 #ada-lovelace img,
 #juventude img {
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
 #infancia,
@@ -79,7 +81,7 @@ section {
 
 #infancia img,
 #vida-adulta img {
-  margin-right: 10%;
+  margin-right: 5%;
   
 }
 
@@ -95,7 +97,6 @@ section {
 
 .div-text {
   width: 80%;
-  height: 400px;
 }
 
 ul {
